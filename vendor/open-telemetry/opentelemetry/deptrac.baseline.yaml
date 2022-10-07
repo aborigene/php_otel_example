@@ -1,4 +1,0 @@
-deptrac:
-  skip_violations:
-    OpenTelemetry\SDK\Trace\Span:
-      - OpenTelemetry\API\Trace\NonRecordingSpan
