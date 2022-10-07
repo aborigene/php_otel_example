@@ -1,0 +1,9 @@
+#FROM php:8.0.24-zts-buster 
+FROM php:8.2-rc-apache-buster
+#COPY . /usr/src/myapp
+COPY . /var/www/html
+WORKDIR /usr/src/myapp
+ENV OTEL_EXPORTER_OTLP_TRACES_HEADERS="Authorization=Api-Token dt0c01.F32EHC5D7N4ZP2RBWGSWVRAK.JYKBQ4D2LFHCUQEL6VIRLP4V5TGS63USQQTE7X4OSX5ZMYWKXALPP4UG2CGYE6IY"
+ENV OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://yvt15579.live.dynatrace.com/api/v2/otlp/v1/traces
+ENV REMOTE_ENDPOINT=172.31.64.160
+#CMD [ "php", "./hello.php" ]

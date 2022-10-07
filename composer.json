@@ -1,0 +1,12 @@
+{
+    "require": {
+        "open-telemetry/opentelemetry": "^0.0.15",
+        "symfony/http-client": "^6.0",
+        "guzzlehttp/psr7": "^2.4",
+        "open-telemetry/sdk": "^0.0.15",
+        "open-telemetry/sdk-contrib": "^0.0.15",
+        "open-telemetry/api": "^0.0.15",
+        "vlucas/phpdotenv": "^5.4",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
