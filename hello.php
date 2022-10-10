@@ -12,8 +12,6 @@ require_once('vendor/autoload.php');
    use GuzzleHttp\Client;
    use GuzzleHttp\Psr7\HttpFactory;
 
-#putenv("OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://yvt15579.live.dynatrace.com/api/v2/otlp/v1/traces");
-#putenv("OTEL_EXPORTER_OTLP_TRACES_HEADERS=Authorization=Api-Token dt0c01.F32EHC5D7N4ZP2RBWGSWVRAK.JYKBQ4D2LFHCUQEL6VIRLP4V5TGS63USQQTE7X4OSX5ZMYWKXALPP4UG2CGYE6IY");
 
 /*$env = new class() {
             use EnvironmentVariablesTrait;
